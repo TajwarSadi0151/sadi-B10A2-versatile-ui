@@ -1,0 +1,13 @@
+
+/* Common CSS starts */
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+
+/* Common CSS ends */
+
+h1 {
+  background-color: red;
+}
