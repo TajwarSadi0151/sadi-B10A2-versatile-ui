@@ -207,8 +207,70 @@
   font-size: 1rem;
   font-weight: 400;
   color: rgba(239, 237, 232, 0.65);
-  ;
+}
+
+/* banner part ends */
+/* habit part starts */
+
+.habit-box {
+  margin-top: 100px;
+}
+
+.habit-info {
+  max-width: 671px;
+  margin: 0 auto 54px auto;
+}
+
+.habit-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+  margin-left: 97px;
+  margin-right: 97px;
+}
+
+.habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.habit-card {
+  max-width: 231px;
+  padding-left: 14px;
+  padding-right: 14px;
+  object-fit: cover;
+}
+
+.habit-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.card-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 
-/* banner part ends */
+/* habit part ends */

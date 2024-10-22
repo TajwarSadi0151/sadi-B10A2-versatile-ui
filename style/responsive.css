@@ -62,4 +62,18 @@
     font-size: 1rem;
   }
 
+  .main-card{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .habit-title {
+    font-size: 1rem;
+  }
+
+  .habit-description {
+    font-size: 1.5rem;
+  }
+
 }
