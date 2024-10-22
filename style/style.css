@@ -285,7 +285,7 @@
   object-fit: cover;
 }
 
-.extra-mile-info{
+.extra-mile-info {
   width: 50%;
   margin-top: 41px;
   margin-bottom: 40px;
@@ -307,14 +307,14 @@
   line-height: 1.5rem;
 }
 
-.run-img{
+.run-img {
   width: 50%;
   margin-top: 30px;
   margin-right: 32px;
   margin-bottom: 29px;
 }
 
-.run-img img{
+.run-img img {
   width: 100%;
   border-radius: 18px;
   object-fit: cover;
