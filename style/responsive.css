@@ -1,5 +1,65 @@
 @media screen and (max-width: 576px) {
-  h1 {
-    background-color: blue;
+  .header-container header {
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-hamburger-menu {
+    display: block;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-info {
+    width: 100%;
+  }
+
+  .banner-title {
+    font-size: 4.2rem;
+  }
+
+  .s-font {
+    font-size: 4rem;
+  }
+
+  .btn-secondary {
+    padding: 10px 15px;
+  }
+
+  .btn-tertiary {
+    padding: 10px 15px;
+    border-radius: 42px;
+  }
+
+  .vid-button {
+    top: 1%;
+    left: 58%;
+    padding: 12px 14px 12px 14px;
+  }
+
+  .lot-videos {
+    font-size: 1.6rem;
+  }
+
+  .vid-tutorial {
+    top: 42%;
+    right: 43%;
+    padding: 13px 6px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tutorial-videos {
+    font-size: 1rem;
+  }
+
 }
