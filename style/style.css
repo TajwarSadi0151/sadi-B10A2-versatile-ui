@@ -238,7 +238,7 @@
   text-align: center;
 }
 
-.main-card{
+.main-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -272,5 +272,52 @@
   text-align: center;
 }
 
-
 /* habit part ends */
+/* extra mile starts */
+
+.extra-mile {
+  margin-top: 100px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  justify-content: center;
+  align-items: center;
+  gap: 165px;
+  object-fit: cover;
+}
+
+.extra-mile-info{
+  width: 50%;
+  margin-top: 41px;
+  margin-bottom: 40px;
+  margin-left: 54px;
+}
+
+.extra-mile-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.extra-mile-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 34px;
+  line-height: 1.5rem;
+}
+
+.run-img{
+  width: 50%;
+  margin-top: 30px;
+  margin-right: 32px;
+  margin-bottom: 29px;
+}
+
+.run-img img{
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* extra mile ends */

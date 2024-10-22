@@ -62,7 +62,7 @@
     font-size: 1rem;
   }
 
-  .main-card{
+  .main-card {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
@@ -74,6 +74,30 @@
 
   .habit-description {
     font-size: 1.5rem;
+  }
+
+  .extra-mile {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .extra-mile-info {
+    margin: 15px;
+  }
+
+  .extra-mile-title {
+    font-size: 1rem;
+  }
+
+  .extra-mile-description {
+    font-size: 0.7rem;
+  }
+
+  .run-img{
+    width: 50%;
+    margin: 15px;
   }
 
 }
