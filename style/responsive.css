@@ -100,6 +100,19 @@
     margin: 15px;
   }
 
+  .bmi-calc-card{
+    flex-direction: column;
+  }
+
+  .bmi-calc-h{
+    margin-left: 20px;
+  }
+
+  .bmi-calc-h p{
+    font-size: 1.5rem;
+    line-height: 24px;
+  }
+
   .t-tile {
     font-size: 1.5rem;
   }
@@ -131,4 +144,6 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  /* footer ends */
 }
