@@ -113,6 +113,11 @@
     line-height: 24px;
   }
 
+  .j-content{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .t-tile {
     font-size: 1.5rem;
   }
