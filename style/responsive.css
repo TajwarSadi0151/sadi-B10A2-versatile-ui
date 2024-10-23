@@ -95,9 +95,40 @@
     font-size: 0.7rem;
   }
 
-  .run-img{
+  .run-img {
     width: 50%;
     margin: 15px;
   }
 
+  .t-tile {
+    font-size: 1.5rem;
+  }
+
+  .team-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 300px;
+    height: 250px;
+  }
+
+
+  .team-card img {
+    width: 100%;
+  }
+
+  .foot-section {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 30px;
+    margin-bottom: 72px;
+  }
+
+  .col-main {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
